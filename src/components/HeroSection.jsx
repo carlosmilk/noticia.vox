@@ -2,10 +2,10 @@ import musica from "../assets/equivocada.jpg"
 
 function HeroSection(){
     return(
-        <section class="section">
-            <div class="hero-section">
-                <div class="atual">
-                    <img class="musica"src={musica}/>
+        <section className="section">
+            <div className="hero-section">
+                <div className="atual">
+                    <img className="musica"src={musica}/>
                     <img src="" alt="" />
                     <div>
                         <p>Equivocada - Tria Véia, Gustavo Lima</p>

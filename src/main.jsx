@@ -3,6 +3,7 @@ import { createRoot } from 'react-dom/client'
 import Header from './components/Header.jsx'
 import HeroSection from './components/HeroSection.jsx'
 import MaisTocadas from './components/MaisTocadas.jsx'
+import Propagandas from './components/Propagandas.jsx'
 import './index.css'
 
 createRoot(document.getElementById('root')).render(

@@ -109,7 +109,8 @@ header {
 }
 
 .botaomusica{
-  color: #B8292C;
+  color: white;
+  background-color: #B8292C;
   border-radius: 10px;
   border: 1px solid #B8292C;
   text-decoration: none;
@@ -122,7 +123,7 @@ header {
 }
 
 .botaomusica:hover{
-  background-color: #B8292C;
+  background-color: #790303fb;
   color: white;
 }
 
@@ -138,4 +139,75 @@ header {
 
 .boxMusic{
   width: 18%;
+}
+
+.imgBoxPropag{
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.titulo{
+  color: black;
+  font-weight: 1rem;
+ 
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.data{
+  color: rgb(59, 58, 58);
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.botaopart{
+  color: white;
+  background-color: #B8292C;
+  border-radius: 10px;
+  border: 1px solid #B8292C;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 500;
+  transition: 100ms;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.botaopart:hover{
+  background-color: #790303fb;
+  color: white;
+}
+
+.propagandas{
+  padding: 8rem;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.propaganda{
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxPropag{
+  width: 30%;
+}
+
+.infoPromo{
+  height: 13rem;
+  
+}
+
+.promo{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+
+.Tpromocao{
+  color: #B8292C;
+  font-size: 40px; 
 }

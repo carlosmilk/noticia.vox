@@ -3,15 +3,15 @@ import logo from "../assets/logo Vox90.png"
 function Header(){
     return(
         <header>
-            <img src={logo} class="logo"/>
-        <div class="menu"> 
-            <a class="itens-menu" href="">Promoções</a>
-            <a class="itens-menu" href="">Blogs</a>
-            <a class="itens-menu" href="">Programação</a>
-            <a class="itens-menu" href="">Anuncie</a>
+            <img src={logo} className="logo"/>
+        <div className="menu"> 
+            <a className="itens-menu" href="">Promoções</a>
+            <a className="itens-menu" href="">Blogs</a>
+            <a className="itens-menu" href="">Programação</a>
+            <a className="itens-menu" href="">Anuncie</a>
         </div>
 
-        <div class="relogio">
+        <div className="relogio">
             <p>
                 12:00
             </p>
