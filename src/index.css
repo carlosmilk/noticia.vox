@@ -66,6 +66,8 @@ header {
 .musica{
   width: 6rem;
   margin-right: 20px;
+  font-weight: bold;
+  font-size: 12px;
 }
 
 .atual{
@@ -81,4 +83,59 @@ header {
 
 .atual p{
   font-size: 15px;
+}
+
+.imgBoxMusic{
+  width: 100%;
+  border-radius: 1rem;
+  margin-top: 1rem;
+}
+
+.nomecantor{
+  color: #B8292C;
+  font-weight: 1rem;
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.deumoral{
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 13px;
+}
+
+.botaomusica{
+  color: #B8292C;
+  border-radius: 10px;
+  border: 1px solid #B8292C;
+  text-decoration: none;
+  padding: 5px;
+  font-weight: 500;
+  transition: 200ms;
+  margin-bottom: 1rem;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.botaomusica:hover{
+  background-color: #B8292C;
+  color: white;
+}
+
+.maisTocadas{
+  padding: 8rem;
+}
+
+.musicas{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.boxMusic{
+  width: 18%;
 }
